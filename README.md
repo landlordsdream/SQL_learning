@@ -4,4 +4,5 @@
 - select Distinct university from user_profile    DISTINCT 关键字用于去除查询结果中的重复值    查询所涉及到的大学
 - #查询结果限制返回行数#  select device_id from user_profile limit 2
 - limit 2  限制返回前两行
+- select device_id as user_infos_example from user_profile limit 2    查询两行并修改列名
 
